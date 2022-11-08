@@ -16,7 +16,7 @@ def index(request):
         "restaurants": restaurants,
         "search": search,
     }
-    return render(request, "index.html", context)
+    return render(request, "bars/index.html", context)
 
 
 def detail(request, restaurant_pk):
